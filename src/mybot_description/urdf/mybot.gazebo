@@ -34,7 +34,7 @@
 
 <!-- This is the camera plugin of the robot --> 
 <!--
-  <gazebo reference="camera">
+  <gazebo reference="tof">
     <material>Gazebo/Green</material>
     <sensor type="camera" name="camera1">
       <update_rate>30.0</update_rate>
@@ -65,18 +65,18 @@
         <distortionT2>0.0</distortionT2>
       </plugin>
     </sensor>
--->
 
+-->
   <gazebo reference="tof">
     <sensor type="depth" name="tof_frame_sensor">
       <always_on>true</always_on>
       <update_rate>20.0</update_rate>
       <camera>
-        <horizontal_fov>${57.0*3.141/180.0}</horizontal_fov>
+        <horizontal_fov>${62.0*3.141/180.0}</horizontal_fov>
         <image>
           <format>R8G8B8</format>
-          <width>640</width>
-          <height>480</height>
+          <width>224</width>
+          <height>171</height>
         </image>
         <clip>
           <near>0.01</near>
