@@ -64,7 +64,6 @@
 
 
   <link name="left_wheel">
-    <!--origin xyz="0.1 0.13 0.1" rpy="0 1.5707 1.5707"/-->
     <collision name="collision">
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
       <geometry>
@@ -89,7 +88,6 @@
   </link>
 
   <link name="right_wheel">
-    <!--origin xyz="0.1 -0.13 0.1" rpy="0 1.5707 1.5707"/-->
     <collision name="collision">
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
       <geometry>
@@ -116,7 +114,6 @@
 
   <joint type="continuous" name="left_wheel_hinge">
     <origin xyz="0.1 0.15 0" rpy="0 0 0"/>
-    <!--origin xyz="0.1 0.13 0" rpy="0 1.5707 1.5707"/-->
     <child link="left_wheel"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
@@ -135,7 +132,7 @@
   </joint>
 
 
-  <link name="camera">
+  <link name="tof">
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
@@ -163,39 +160,7 @@
     <axis xyz="0 1 0" />
     <origin xyz=".2 0 0" rpy="0 0 0"/>
     <parent link="chassis"/>
-    <child link="camera"/>
+    <child link="tof"/>
   </joint>
-
-
-  <joint name="hokuyo_joint" type="fixed">
-    <axis xyz="0 1 0" />
-    <origin xyz=".15 0 .1" rpy="0 0 0"/>
-    <parent link="chassis"/>
-    <child link="hokuyo"/>
-  </joint>
-
-  <!-- Hokuyo Laser -->
-  <link name="hokuyo">
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-    <box size="0.1 0.1 0.1"/>
-      </geometry>
-    </collision>
-
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mybot_description/meshes/hokuyo.dae"/>
-      </geometry>
-    </visual>
-
-    <inertial>
-      <mass value="1e-5" />
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
-    </inertial>
-  </link>
-
 
 </robot>
