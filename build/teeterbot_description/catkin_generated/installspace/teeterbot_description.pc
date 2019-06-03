@@ -1,0 +1,8 @@
+prefix=/home/chris/mybot_ws/install
+
+Name: teeterbot_description
+Description: Description of teeterbot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/mybot_ws/install/lib 
+Requires: 

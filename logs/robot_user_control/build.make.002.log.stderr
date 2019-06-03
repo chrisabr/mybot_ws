@@ -1,0 +1,10 @@
+[01m[K/home/chris/mybot_ws/src/robot_user_control/src/control_robot_key.cpp:[m[K In member function ‘[01m[Kvoid TeleopTurtle::keyLoop()[m[K’:
+[01m[K/home/chris/mybot_ws/src/robot_user_control/src/control_robot_key.cpp:122:8:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear[m[K’ was not declared in this scope
+        linear = 0; 
+[01;32m[K        ^[m[K
+[01m[K/home/chris/mybot_ws/src/robot_user_control/src/control_robot_key.cpp:123:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular[m[K’ was not declared in this scope
+        angular = 0; 
+[01;32m[K        ^[m[K
+make[2]: *** [CMakeFiles/robot_user_control.dir/src/control_robot_key.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_user_control.dir/all] Error 2
+make: *** [all] Error 2

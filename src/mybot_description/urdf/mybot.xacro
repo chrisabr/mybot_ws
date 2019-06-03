@@ -11,11 +11,10 @@
 
 
   <link name='chassis'>
-    <pose>0 0 0.1 0 0 0</pose>
 
     <inertial>
       <mass value="10.0"/>
-      <origin xyz="0.0 0 0.1" rpy=" 0 0 0"/>
+      <origin xyz="0.0 0 0.2" rpy=" 0 0 0"/>
       <inertia
           ixx="0.5" ixy="0" ixz="0"
           iyy="1.0" iyz="0"
@@ -25,20 +24,20 @@
 
     <collision name='collision'>
       <geometry>
-        <box size=".4 .2 .1"/>
+        <box size=".4 .2 .2"/>
       </geometry>
     </collision>
 
     <visual name='chassis_visual'>
       <origin xyz="0 0 0" rpy=" 0 0 0"/>
       <geometry>
-        <box size=".4 .2 .1"/>
+        <box size=".4 .2 .2"/>
       </geometry>
     </visual>
 
 
     <collision name='caster_collision'>
-      <origin xyz="-0.15 0 -0.05" rpy=" 0 0 0"/>
+      <origin xyz="-0.15 0 -0.10" rpy=" 0 0 0"/>
       <geometry>
         <sphere radius="0.05"/>
       </geometry>
@@ -55,7 +54,7 @@
     </collision>
 
     <visual name='caster_visual'>
-      <origin xyz="-0.15 0 -0.05" rpy=" 0 0 0"/>
+      <origin xyz="-0.15 0 -0.10" rpy=" 0 0 0"/>
       <geometry>
         <sphere radius="0.05"/>
       </geometry>
@@ -113,7 +112,7 @@
 
 
   <joint type="continuous" name="left_wheel_hinge">
-    <origin xyz="0.1 0.15 0" rpy="0 0 0"/>
+    <origin xyz="0.1 0.15 -0.05" rpy="0 0 0"/>
     <child link="left_wheel"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
@@ -122,7 +121,7 @@
   </joint>
 
   <joint type="continuous" name="right_wheel_hinge">
-    <origin xyz="0.1 -0.15 0" rpy="0 0 0"/>
+    <origin xyz="0.1 -0.15 -0.05" rpy="0 0 0"/>
     <!--origin xyz="0.1 -0.13 0" rpy="0 1.5707 1.5707"/-->
     <child link="right_wheel"/>
     <parent link="chassis"/>
@@ -158,7 +157,7 @@
 
   <joint name="camera_joint" type="fixed">
     <axis xyz="0 1 0" />
-    <origin xyz=".2 0 0" rpy="0 0 0"/>
+    <origin xyz=".2 0 .12" rpy="0 0 0"/>
     <parent link="chassis"/>
     <child link="tof"/>
   </joint>

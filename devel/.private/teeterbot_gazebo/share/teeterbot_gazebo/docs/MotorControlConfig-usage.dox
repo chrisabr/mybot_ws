@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="teeterbot_gazebo" pkg="teeterbot_gazebo" type="teeterbot_gazebo">
+  <param name="ramp_limit" type="double" value="20.0" />
+  <param name="kp" type="double" value="3.0" />
+  <param name="ki" type="double" value="2.0" />
+  <param name="kd" type="double" value="0.0" />
+</node>
+\endverbatim
+

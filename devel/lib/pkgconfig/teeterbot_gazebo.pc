@@ -1,0 +1,1 @@
+/home/chris/mybot_ws/devel/.private/teeterbot_gazebo/lib/pkgconfig/teeterbot_gazebo.pc

@@ -1,0 +1,38 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/chris/mybot_ws/devel/.private/robot_user_control
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/chris/mybot_ws/devel;/home/chris/catkin_ws/devel;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/chris/mybot_ws/devel;/home/chris/catkin_ws/devel;/opt/ros/kinetic
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/chris/mybot_ws/build/robot_user_control/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.14
+[33m[1mCMake Warning[0m at /opt/ros/kinetic/share/cmake_modules/cmake/Modules/FindEigen.cmake:62 (message):
+  The FindEigen.cmake Module in the cmake_modules package is deprecated.
+
+  Please use the FindEigen3.cmake Module provided with Eigen.  Change
+  instances of find_package(Eigen) to find_package(Eigen3).  Check the
+  FindEigen3.cmake Module for the resulting CMake variable names.
+
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:13 (find_package)
+
+
+[36m--[0m Eigen found (include: /usr/include/eigen3)
+[31m[1mCMake Error[0m at /home/chris/mybot_ws/src/robot_user_control/CMakeLists.txt:44 (add_dependencies):
+  Cannot add target-level dependencies to non-existent target "test_kalman".
+
+  The add_dependencies works for top-level logical targets created by the
+  add_executable, add_library, or add_custom_target commands.  If you want to
+  add file-level dependencies see the DEPENDS option of the add_custom_target
+  and add_custom_command commands.
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/chris/mybot_ws/build/robot_user_control/CMakeFiles/CMakeOutput.log".
+See also "/home/chris/mybot_ws/build/robot_user_control/CMakeFiles/CMakeError.log".

@@ -1,0 +1,8 @@
+prefix=/home/chris/mybot_ws/devel/.private/teeterbot_gazebo
+
+Name: teeterbot_gazebo
+Description: Description of teeterbot_gazebo
+Version: 0.0.0
+Cflags: -I/home/chris/mybot_ws/devel/.private/teeterbot_gazebo/include
+Libs: -L/home/chris/mybot_ws/devel/.private/teeterbot_gazebo/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/chris/mybot_ws/devel/.private/teeterbot_gazebo/share/gennodejs/ros/teeterbot_gazebo/_index.js

@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target _teeterbot_gazebo_generate_messages_check_deps_NudgeTeeterbot[0m
+[35m[1mScanning dependencies of target teeterbot_gazebo_gencfg[0m
+[  8%] [34m[1mGenerating dynamic reconfigure files from cfg/MotorControl.cfg: /home/chris/mybot_ws/devel/.private/teeterbot_gazebo/include/teeterbot_gazebo/MotorControlConfig.h /home/chris/mybot_ws/devel/.private/teeterbot_gazebo/lib/python2.7/dist-packages/teeterbot_gazebo/cfg/MotorControlConfig.py[0m
+[  8%] Built target _teeterbot_gazebo_generate_messages_check_deps_NudgeTeeterbot
+[35m[1mScanning dependencies of target teeterbot_gazebo_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target teeterbot_gazebo_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target teeterbot_gazebo_generate_messages_py[0m
+[35m[1mScanning dependencies of target teeterbot_gazebo_generate_messages_eus[0m
+[35m[1mScanning dependencies of target teeterbot_gazebo_generate_messages_lisp[0m
+[ 16%] [34m[1mGenerating C++ code from teeterbot_gazebo/NudgeTeeterbot.srv[0m
+[ 25%] [34m[1mGenerating Javascript code from teeterbot_gazebo/NudgeTeeterbot.srv[0m
+[ 33%] [34m[1mGenerating Python code from SRV teeterbot_gazebo/NudgeTeeterbot[0m
+[ 41%] [34m[1mGenerating EusLisp manifest code for teeterbot_gazebo[0m
+[ 50%] [34m[1mGenerating EusLisp code from teeterbot_gazebo/NudgeTeeterbot.srv[0m
+[ 58%] [34m[1mGenerating Lisp code from teeterbot_gazebo/NudgeTeeterbot.srv[0m
+[ 58%] Built target teeterbot_gazebo_generate_messages_nodejs
+[ 58%] Built target teeterbot_gazebo_generate_messages_lisp
+Generating reconfiguration files for MotorControl in teeterbot_gazebo
+Wrote header file in /home/chris/mybot_ws/devel/.private/teeterbot_gazebo/include/teeterbot_gazebo/MotorControlConfig.h
+[ 58%] Built target teeterbot_gazebo_gencfg
+[ 66%] [34m[1mGenerating Python srv __init__.py for teeterbot_gazebo[0m
+[ 66%] Built target teeterbot_gazebo_generate_messages_py
+[ 66%] Built target teeterbot_gazebo_generate_messages_cpp
+[35m[1mScanning dependencies of target teeterbot_gazebo_gencpp[0m
+[ 66%] Built target teeterbot_gazebo_gencpp
+[35m[1mScanning dependencies of target teeterbot_gazebo_plugin[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/teeterbot_gazebo_plugin.dir/src/MotorController.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/teeterbot_gazebo_plugin.dir/src/DcMotorSim.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/teeterbot_gazebo_plugin.dir/src/ControllerInterfacePlugin.cpp.o[0m
+[ 91%] Built target teeterbot_gazebo_generate_messages_eus
+[35m[1mScanning dependencies of target teeterbot_gazebo_generate_messages[0m
+[ 91%] Built target teeterbot_gazebo_generate_messages
+[100%] [32m[1mLinking CXX shared library /home/chris/mybot_ws/devel/.private/teeterbot_gazebo/lib/libteeterbot_gazebo_plugin.so[0m
+[100%] Built target teeterbot_gazebo_plugin

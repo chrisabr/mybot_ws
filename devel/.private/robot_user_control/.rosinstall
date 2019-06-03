@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chris/mybot_ws/devel/.private/robot_user_control/setup.sh

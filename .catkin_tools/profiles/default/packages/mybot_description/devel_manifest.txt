@@ -1,4 +1,4 @@
 mybot_description
-/home/chris/mybot_ws/devel/.private/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake /home/chris/mybot_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
-/home/chris/mybot_ws/devel/.private/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake /home/chris/mybot_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig.cmake
 /home/chris/mybot_ws/devel/.private/mybot_description/lib/pkgconfig/mybot_description.pc /home/chris/mybot_ws/devel/lib/pkgconfig/mybot_description.pc
+/home/chris/mybot_ws/devel/.private/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake /home/chris/mybot_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+/home/chris/mybot_ws/devel/.private/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake /home/chris/mybot_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake

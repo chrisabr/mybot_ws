@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~ramp_limit" : \b [double] Command ramp limit min: 1.0, default: 20.0, max: 1000.0
+- \b "~kp" : \b [double] Proportional gain min: 0.0, default: 3.0, max: 30.0
+- \b "~ki" : \b [double] Integral gain min: 0.0, default: 2.0, max: 30.0
+- \b "~kd" : \b [double] Derivative gain min: 0.0, default: 0.0, max: 30.0
+

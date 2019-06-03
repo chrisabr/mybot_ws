@@ -1,0 +1,3 @@
+Symlinking /home/chris/mybot_ws/devel/lib/pkgconfig/teeterbot_description.pc
+Symlinking /home/chris/mybot_ws/devel/share/teeterbot_description/cmake/teeterbot_descriptionConfig-version.cmake
+Symlinking /home/chris/mybot_ws/devel/share/teeterbot_description/cmake/teeterbot_descriptionConfig.cmake

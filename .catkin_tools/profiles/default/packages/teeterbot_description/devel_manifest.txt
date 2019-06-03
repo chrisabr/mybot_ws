@@ -1,0 +1,4 @@
+teeterbot/teeterbot_description
+/home/chris/mybot_ws/devel/.private/teeterbot_description/lib/pkgconfig/teeterbot_description.pc /home/chris/mybot_ws/devel/lib/pkgconfig/teeterbot_description.pc
+/home/chris/mybot_ws/devel/.private/teeterbot_description/share/teeterbot_description/cmake/teeterbot_descriptionConfig-version.cmake /home/chris/mybot_ws/devel/share/teeterbot_description/cmake/teeterbot_descriptionConfig-version.cmake
+/home/chris/mybot_ws/devel/.private/teeterbot_description/share/teeterbot_description/cmake/teeterbot_descriptionConfig.cmake /home/chris/mybot_ws/devel/share/teeterbot_description/cmake/teeterbot_descriptionConfig.cmake

@@ -1,0 +1,4 @@
+Symlinking /home/chris/mybot_ws/devel/lib/robot_user_control/robot_user_control
+Symlinking /home/chris/mybot_ws/devel/lib/pkgconfig/robot_user_control.pc
+Symlinking /home/chris/mybot_ws/devel/share/robot_user_control/cmake/robot_user_controlConfig.cmake
+Symlinking /home/chris/mybot_ws/devel/share/robot_user_control/cmake/robot_user_controlConfig-version.cmake
